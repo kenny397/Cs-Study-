@@ -1,6 +1,6 @@
 package calculator;
 
-public class TestCalculator {
+public class TextCalculator {
 	public static double calculate(String inputText) {
 		String[] tokens = inputText.trim().split(" ");
 		double result = Double.parseDouble(tokens[0]);
